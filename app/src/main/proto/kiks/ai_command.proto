@@ -1,0 +1,25 @@
+syntax = "proto2";
+
+import "google/protobuf/timestamp.proto";
+
+import "kiks/kick_command.proto";
+import "kiks/x_y_theta.proto";
+
+package ai_server_cafe.network.proto.kiks;
+option java_package = "ai_server_cafe.network.proto.kiks";
+
+message AiCommand {
+  optional uint32 id = 1;
+  optional google.protobuf.Timestamp stamp = 2;
+  optional XYTheta speed = 3;
+  repeated XYTheta path = 4;
+  optional double velocity_limit = 5;
+  optional uint32 dribble_step = 6;
+  optional KickCommand kick = 7;
+  enum TeamColor {
+    kYellow = 0;
+    kBlue = 1;
+  }
+  optional TeamColor team_color = 8;
+  repeated uint32 spare = 9;
+}

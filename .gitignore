@@ -1,0 +1,21 @@
+# Ignore Gradle project-specific cache directory
+.gradle/
+
+# Ignore Gradle build output directory
+app/build/
+app/config/
+app/bin/
+app/data/
+app/native/
+app/task/
+
+# Ignore IDE profiles 
+eclipse/
+.settings/
+app/.classpath
+app/.project
+.project
+
+# Ignore IntelliJ IDEA profiles
+.idea/
+app/app.iml

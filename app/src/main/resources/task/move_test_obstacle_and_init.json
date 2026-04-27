@@ -1,0 +1,104 @@
+{
+  "tasks": [
+    {
+      "id": 6,
+      "color": "YELLOW",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": false,
+      "target": {
+        "pos": [
+          2400.0,
+          -2000.0,
+          3.141592
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "obj": ""
+      }
+    },
+    {
+      "id": -1,
+      "color": "YELLOW",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": false,
+      "target": {
+        "pos": [
+          2900.0,
+          2000.0,
+          0.0
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "obj": ""
+      }
+    },
+    {
+      "id": -1,
+      "color": "YELLOW",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": false,
+      "target": {
+        "pos": [
+          3900.0,
+          2000.0,
+          0.0
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "obj": ""
+      }
+    },
+    {
+      "id": -1,
+      "color": "YELLOW",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": false,
+      "target": {
+        "pos": [
+          3400.0,
+          2700.0,
+          1.57
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "obj": ""
+      }
+    },
+    {
+      "id": -1,
+      "color": "YELLOW",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": false,
+      "target": {
+        "pos": [
+          3400.0,
+          2230.0,
+          0.0
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "obj": ""
+      }
+    }
+  ]
+}

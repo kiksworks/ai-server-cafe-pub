@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+import "google/protobuf/timestamp.proto";
+
+import "kiks/x_y_theta.proto";
+
+package ai_server_cafe.network.proto.kiks;
+option java_package = "ai_server_cafe.network.proto.kiks";
+
+message RobotStatus {
+  optional uint32 id = 1;
+  optional google.protobuf.Timestamp stamp = 2;
+  optional XYTheta speed = 3;
+  optional XYTheta position = 4;
+  optional XYTheta ball_position = 5;
+  optional google.protobuf.Timestamp kick_time = 6;
+  optional uint32 kick_count = 7;
+  repeated uint32 spare = 8;
+}

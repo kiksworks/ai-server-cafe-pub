@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package ai_server_cafe.network.proto.kiks;
+option java_package = "ai_server_cafe.network.proto.kiks";
+
+message KickCommand {
+  enum KickType{
+    kChip = 0;
+    kStraight = 1;
+  }
+  optional KickType kick_type = 1;
+  optional uint32 kick_power = 2;
+}

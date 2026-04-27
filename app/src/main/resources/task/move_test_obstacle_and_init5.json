@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": 6,
+      "color": "YELLOW",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": false,
+      "target": {
+        "pos": [
+          2400.0,
+          -2000.0,
+          1.57
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "obj": ""
+      }
+    },
+    {
+      "id": -1,
+      "color": "YELLOW",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": false,
+      "target": {
+        "pos": [
+          2400.0,
+          1700.0,
+          0.0
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "obj": ""
+      }
+    },
+    {
+      "id": -1,
+      "color": "YELLOW",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": false,
+      "target": {
+        "pos": [
+          2100.0,
+          1700.0,
+          1.57
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "obj": ""
+      }
+    },
+    {
+      "id": -1,
+      "color": "YELLOW",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": false,
+      "target": {
+        "pos": [
+          1800.0,
+          1700.0,
+          0.0
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "obj": ""
+      }
+    }
+  ]
+}

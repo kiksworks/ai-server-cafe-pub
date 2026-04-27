@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    {
+      "id": 0,
+      "color": "BLUE",
+      "taskType": "action",
+      "taskName": "move",
+      "isFake": true,
+      "target": {
+        "obj": "BALL",
+        "pos": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vel": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}
